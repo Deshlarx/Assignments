@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow: hidden;
+  background-color: black;
+  display: grid;
+}
+
+a {
+  color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.nav_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 25;
+  padding: 1vh;
+  color: white;
+  font-weight: bolder;
+  font-family: inherit;
+  font-size: 3vh;
+  text-transform: uppercase;
+  text-align: center;
+  grid-gap: 2vw;
+  position: fixed;
+  top: 3vh;
+  left: 40vw;
+}
+
+nav div {
+  padding: 1vh 2vw;
+  background-color: rebeccapurple;
+}
+
+.grid_row1 {
+  text-align: center;
+  display: grid;
+
+
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-row: 2fr 1fr;
+  grid-column: 1fr;
+  width: 70vw;
+  grid-gap: 1vh;
+  margin: 13vh auto;
+}
+
+.item1 {
+  background-color: #eb5020;
+  height: 35vh;
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 2;
+}
+
+.item2 {
+  height: 35vh;
+  grid-column: 5 / span 2;
+  grid-row: 1 / span 2;
+  background-color: #ffa401;
+}
+.item3 {
+  height: 35vh;
+  background-color: #05aa42;
+  grid-column: 1 / span 3;
+  grid-row: 3 / span 4;
+}
+
+.item4 {
+  grid-column: 4 / span 3;
+  grid-row: 3 / span 2;
+  height: 17vh;
+  background-color: #01aefd;
+}
+
+.item5 {
+  height: 17vh;
+  grid-column: 4 / span 3;
+  grid-row: 4 / span 2;
+  background-color: #01aefd;
+}
