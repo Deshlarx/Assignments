@@ -4,7 +4,7 @@ Week 5 task showing the README.md file
 
 ## 🚀 About Me
 
-# Hi 👋 , I'm Adesola Abosede Ogunyemi!
+# Hi 👋, I'm Adesola Abosede Ogunyemi!
 
 I'm a frontend developer, passionate about creating new things to solve real world problems and sharing what I know!
 
